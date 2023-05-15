@@ -1,3 +1,4 @@
 body{
-    background-color: lightskyblue;
+    background-image: url(img/задний\ фон.png);
+    background-size:cover ;
 }
