@@ -1,0 +1,84 @@
+body{
+    background-image: url(../img/задний\ фон.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    font-family: 'Road Rage', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header  */
+
+header{
+    background-color: #1F1D32;
+}
+
+.header_wrapper{
+    margin: 0 auto;
+    max-width: 1920px;
+    
+}
+
+.logo_searchBar_navBar{
+    
+    font-family: 'Road Rage', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size:150px;
+    color: white;
+    font-family: 'Road Rage', cursive;
+    color: #7E4044;
+    -webkit-text-stroke:1px  #211F32;
+    padding-right: 107px;
+
+}
+.header_navbar{
+    color: #7E4044;
+    font-size: 60px;
+    font-family: 'Road Rage', cursive;
+    
+    
+}
+.header_navbar ul li a{
+    color: inherit;
+    -webkit-text-stroke:1px  #211F32;
+    transition: 0.3s;
+}
+
+.header_navbar ul li a:hover{
+
+    display: inline-block;
+    color: rgb(106, 27, 27);
+    transform: scale(1.2);
+}
+.header_navbar ul{
+    display: flex;
+}
+.header_navbar ul li{
+    padding-right: 82px;
+}
+
+.searchBar{
+    background-color: #683240;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #918080;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    margin-right: 102px;
+   
+}
+.searchBar .SearchIcon{
+    padding-right: 5px;
+}
+.searchBar input{
+    color: #918080;
+    font-size: 30px;
+    width: 95%;
+}
